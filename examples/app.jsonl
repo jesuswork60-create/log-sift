@@ -1,0 +1,8 @@
+{"timestamp":"2024-03-04T09:00:02Z","level":"info","service":"checkout","msg":"order placed","order":{"id":1001,"total":42.5},"ms":38}
+{"timestamp":"2024-03-04T09:00:17Z","level":"info","service":"checkout","msg":"order placed","order":{"id":1002,"total":19.99},"ms":41}
+{"timestamp":"2024-03-04T09:01:05Z","level":"warn","service":"search","msg":"slow query","query":"blue kettle","ms":812}
+{"timestamp":"2024-03-04T09:02:40Z","level":"error","service":"payments","msg":"card gateway timeout","retry":true,"ms":3001}
+{"timestamp":"2024-03-04T09:03:11Z","level":"info","service":"search","msg":"index refreshed","ms":120,"tags":["nightly","full"]}
+{"timestamp":"2024-03-04T09:05:29Z","level":"error","service":"payments","msg":"card gateway timeout","retry":false,"ms":3004}
+{"timestamp":"2024-03-04T09:06:48Z","level":"info","service":"checkout","msg":"order placed","order":{"id":1003,"total":7.25},"ms":35}
+{"timestamp":"2024-03-04T09:07:03Z","level":"debug","service":"search","msg":"cache hit","query":"red mug","ms":2}

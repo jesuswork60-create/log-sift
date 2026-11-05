@@ -1,0 +1,7 @@
+203.0.113.7 - - [04/Mar/2024:09:00:01 +0000] "GET / HTTP/1.1" 200 5120 "-" "ExampleBrowser/1.0"
+203.0.113.7 - - [04/Mar/2024:09:00:02 +0000] "GET /static/site.css HTTP/1.1" 200 1840 "https://shop.example.com/" "ExampleBrowser/1.0"
+198.51.100.23 - sam [04/Mar/2024:09:00:40 +0000] "POST /api/orders HTTP/1.1" 201 88 "https://shop.example.com/cart" "ExampleBrowser/1.0"
+198.51.100.23 - sam [04/Mar/2024:09:01:15 +0000] "GET /api/orders/1001 HTTP/1.1" 200 412 "-" "ExampleBrowser/1.0"
+192.0.2.55 - - [04/Mar/2024:09:02:03 +0000] "GET /wp-login.php HTTP/1.1" 404 153 "-" "ExampleScanner/0.2"
+192.0.2.55 - - [04/Mar/2024:09:02:04 +0000] "GET /.env HTTP/1.1" 404 153 "-" "ExampleScanner/0.2"
+203.0.113.7 - - [04/Mar/2024:09:03:30 +0000] "GET /api/search?q=kettle HTTP/1.1" 502 0 "https://shop.example.com/" "ExampleBrowser/1.0"
