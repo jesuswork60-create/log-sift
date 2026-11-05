@@ -1,0 +1,17 @@
+[package]
+name = "log-sift"
+version = "0.1.0"
+edition = "2021"
+description = "Filter and summarize structured log files from the command line"
+license = "MIT"
+authors = ["jesuswork60-create"]
+
+[lib]
+name = "logsift"
+path = "src/lib.rs"
+
+[[bin]]
+name = "log-sift"
+path = "src/main.rs"
+
+[dependencies]
