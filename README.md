@@ -4,6 +4,7 @@ Answering questions about a log file usually starts with a pile of `grep` and `a
 
 It reads JSON lines, logfmt and the nginx/Apache "combined" access log format, working out which one by looking at the first lines of each input. On top of that are a small query language, time windows, and aggregates with grouping and time buckets. It's a single binary with no dependencies outside the Rust standard library.
 
+
 ## Install
 
 You need a Rust toolchain (stable).
